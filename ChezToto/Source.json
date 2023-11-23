@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Entrées",
+        "dishs": [
+            {
+                "name": "Garlic bread",
+                "description": "Du pain legèrement croustillant parfumé à l’ail",
+                "pictureName": "garlicBread",
+                "price": 3.5
+            },
+            {
+                "name": "Potatoes",
+                "description": "Du pain legèrement croustillant parfumé à l’ail",
+                "pictureName": "potatoes",
+                "price": 3.5
+            }
+        ]
+    },
+    {
+        "name": "Pizzas",
+        "dishs": [
+            {
+                "name": "Margarita",
+                "description": "Du pain legèrement croustillant parfumé à l’ail",
+                "pictureName": "margarita",
+                "price": 10
+            },
+            {
+                "name": "Végétarienne",
+                "description": "Du pain legèrement croustillant parfumé à l’ail",
+                "pictureName": "vege",
+                "price": 12
+            },
+            {
+                "name": "Peperoni",
+                "description": "Du pain legèrement croustillant parfumé à l’ail",
+                "pictureName": "peperoni",
+                "price": 13.5
+            },
+            {
+                "name": "4 fromages",
+                "description": "Du pain legèrement croustillant parfumé à l’ail",
+                "pictureName": "4fromages",
+                "price": 12.5
+            }
+        ]
+    }
+]
+ 
+ 
+ 
