@@ -23,15 +23,15 @@ struct RowView : View {
                     .font(.system(size:14))
                     .fontWeight(.semibold)
                     .padding(.bottom, 4)
-                    .foregroundStyle(.customGray)
+                    .foregroundStyle(.gray)
                 Text(dish.description)
                     .font(.system(size:12))
                     .padding(.bottom, 4)
-                    .foregroundStyle(.customGray)
+                    .foregroundStyle(.gray)
                 Text(String(format: "%g €", dish.price))
                     .font(.system(size:12))
                     .fontWeight(.semibold)
-                    .foregroundStyle(.customGray)
+                    .foregroundStyle(.gray)
             }
             .padding(.leading)
         }

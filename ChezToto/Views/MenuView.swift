@@ -22,6 +22,6 @@ struct MenuView: View {
     }
 }
 
-#Preview {
-    MenuView()
-}
+//#Preview {
+//    MenuView()
+//}

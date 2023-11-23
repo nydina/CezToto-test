@@ -15,7 +15,7 @@ struct ContentView: View {
                 TitleView()
                     .padding()
                     .overlay(RoundedRectangle(cornerRadius: 10)
-                        .stroke(.accent, lineWidth: 2))
+                        .stroke(.red, lineWidth: 2))
                     .background(RoundedRectangle(cornerRadius: 10).fill(.white))
             }
             InfosView()
@@ -32,7 +32,7 @@ struct ContentView: View {
                 Spacer()
             }
             .foregroundColor(.white)
-            .background(.accent)
+            .background(.red)
             .clipShape( RoundedRectangle(cornerRadius: 10))
             .padding()
         }
@@ -46,7 +46,7 @@ struct TitleView: View {
                 .font(.title)
                 .fontWeight(.bold)
             Text("Pizzeria")
-                .foregroundStyle(.customGray)
+                .foregroundStyle(.gray)
         }
     }
 }
@@ -54,6 +54,6 @@ struct TitleView: View {
 
 
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}

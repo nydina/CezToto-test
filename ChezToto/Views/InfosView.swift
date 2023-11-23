@@ -33,12 +33,12 @@ struct TimeView: View {
         HStack {
             Image("clock")
             Text(day)
-                .foregroundStyle(.customGray)
+                .foregroundStyle(.gray)
                 .fontWeight(.semibold)
                 .font(.system(size: 13))
             Spacer()
             Text(hours)
-                .foregroundStyle(.customGray)
+                .foregroundStyle(.gray)
                 .font(.system(size: 13))
         }
     }
@@ -52,12 +52,12 @@ struct InfoDetailsView: View {
         HStack {
             Image(type)
             Text(text)
-                .foregroundStyle(.customGray)
+                .foregroundStyle(.gray)
                 .font(.system(size: 13))
         }
     }
 }
 
-#Preview {
-    InfosView()
-}
+//#Preview {
+//    InfosView()
+//}
