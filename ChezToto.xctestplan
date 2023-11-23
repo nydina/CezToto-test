@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "05BF0C38-6FD6-4BE2-86B7-96E7298F64EB",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ChezToto.xcodeproj",
+      "identifier" : "42DC5D972B03C3DE009EEF19",
+      "name" : "ChezToto"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ChezToto.xcodeproj",
+        "identifier" : "10DEB52B2B0F5B4F0033B35D",
+        "name" : "ChezTotoTests"
+      }
+    }
+  ],
+  "version" : 1
+}

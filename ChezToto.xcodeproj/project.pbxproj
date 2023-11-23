@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10DEB52F2B0F5B4F0033B35D /* ChezTotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEB52E2B0F5B4F0033B35D /* ChezTotoTests.swift */; };
 		10DEB5362B0F5BB10033B35D /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEB5352B0F5BB10033B35D /* ViewModelTests.swift */; };
 		42DC5D9C2B03C3DE009EEF19 /* ChezTotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC5D9B2B03C3DE009EEF19 /* ChezTotoApp.swift */; };
 		42DC5D9E2B03C3DE009EEF19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC5D9D2B03C3DE009EEF19 /* ContentView.swift */; };
@@ -33,8 +32,8 @@
 
 /* Begin PBXFileReference section */
 		10DEB52C2B0F5B4F0033B35D /* ChezTotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChezTotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10DEB52E2B0F5B4F0033B35D /* ChezTotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChezTotoTests.swift; sourceTree = "<group>"; };
 		10DEB5352B0F5BB10033B35D /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		10DEB5372B0F6F130033B35D /* ChezToto.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChezToto.xctestplan; sourceTree = "<group>"; };
 		42DC5D982B03C3DE009EEF19 /* ChezToto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChezToto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DC5D9B2B03C3DE009EEF19 /* ChezTotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChezTotoApp.swift; sourceTree = "<group>"; };
 		42DC5D9D2B03C3DE009EEF19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +69,6 @@
 		10DEB52D2B0F5B4F0033B35D /* ChezTotoTests */ = {
 			isa = PBXGroup;
 			children = (
-				10DEB52E2B0F5B4F0033B35D /* ChezTotoTests.swift */,
 				10DEB5352B0F5BB10033B35D /* ViewModelTests.swift */,
 			);
 			path = ChezTotoTests;
@@ -79,6 +77,7 @@
 		42DC5D8F2B03C3DE009EEF19 = {
 			isa = PBXGroup;
 			children = (
+				10DEB5372B0F6F130033B35D /* ChezToto.xctestplan */,
 				42DC5D9A2B03C3DE009EEF19 /* ChezToto */,
 				10DEB52D2B0F5B4F0033B35D /* ChezTotoTests */,
 				42DC5D992B03C3DE009EEF19 /* Products */,
@@ -238,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DEB5362B0F5BB10033B35D /* ViewModelTests.swift in Sources */,
-				10DEB52F2B0F5B4F0033B35D /* ChezTotoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
